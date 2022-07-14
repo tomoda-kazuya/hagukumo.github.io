@@ -1,0 +1,16 @@
+{
+  "name": "hagukumo.github.io",
+  "version": "1.0.0",
+  "description": "Document Site",
+  "main": "index.js",
+  "repository": "git@github.com:tomoda-kazuya/hagukumo.github.io.git",
+  "author": "Kazuya Tomoda",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.49"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
